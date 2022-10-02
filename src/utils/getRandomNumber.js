@@ -1,11 +1,5 @@
-import React from 'react'
-
 const getRandomNumber = () => {
-
-    const randomNumber = Math.ceil(Math.random() * 157) 
-
-    return randomNumber
-  
+    return Math.floor(Math.random() * 126) + 1
 }
 
 export default getRandomNumber
