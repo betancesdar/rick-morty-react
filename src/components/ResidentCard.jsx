@@ -14,7 +14,7 @@ const ResidentCard = ({url}) => {
 
  const resident = useFetch(url)
 
- console.log(resident)
+ 
 
   return (
     <Article className='resident_article'>
